@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56B242920237DE10062BECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B242820237DE10062BECA /* AppDelegate.swift */; };
+		B56B242B20237DE10062BECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B242A20237DE10062BECA /* ViewController.swift */; };
+		B56B242E20237DE10062BECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56B242C20237DE10062BECA /* Main.storyboard */; };
+		B56B243020237DE10062BECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56B242F20237DE10062BECA /* Assets.xcassets */; };
+		B56B243320237DE10062BECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56B243120237DE10062BECA /* LaunchScreen.storyboard */; };
+		B56B243E20237DE10062BECA /* MyFloatTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B243D20237DE10062BECA /* MyFloatTextViewTests.swift */; };
+		B56B244920237DE10062BECA /* MyFloatTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B244820237DE10062BECA /* MyFloatTextViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B56B243A20237DE10062BECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56B241D20237DE10062BECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56B242420237DE10062BECA;
+			remoteInfo = MyFloatTextView;
+		};
+		B56B244520237DE10062BECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56B241D20237DE10062BECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56B242420237DE10062BECA;
+			remoteInfo = MyFloatTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B56B242520237DE10062BECA /* MyFloatTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFloatTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56B242820237DE10062BECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B56B242A20237DE10062BECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B56B242D20237DE10062BECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B56B242F20237DE10062BECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B56B243220237DE10062BECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B56B243420237DE10062BECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56B243920237DE10062BECA /* MyFloatTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFloatTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56B243D20237DE10062BECA /* MyFloatTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFloatTextViewTests.swift; sourceTree = "<group>"; };
+		B56B243F20237DE10062BECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56B244420237DE10062BECA /* MyFloatTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFloatTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56B244820237DE10062BECA /* MyFloatTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFloatTextViewUITests.swift; sourceTree = "<group>"; };
+		B56B244A20237DE10062BECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B56B242220237DE10062BECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56B243620237DE10062BECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56B244120237DE10062BECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B56B241C20237DE10062BECA = {
+			isa = PBXGroup;
+			children = (
+				B56B242720237DE10062BECA /* MyFloatTextView */,
+				B56B243C20237DE10062BECA /* MyFloatTextViewTests */,
+				B56B244720237DE10062BECA /* MyFloatTextViewUITests */,
+				B56B242620237DE10062BECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B56B242620237DE10062BECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56B242520237DE10062BECA /* MyFloatTextView.app */,
+				B56B243920237DE10062BECA /* MyFloatTextViewTests.xctest */,
+				B56B244420237DE10062BECA /* MyFloatTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56B242720237DE10062BECA /* MyFloatTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B56B242820237DE10062BECA /* AppDelegate.swift */,
+				B56B242A20237DE10062BECA /* ViewController.swift */,
+				B56B242C20237DE10062BECA /* Main.storyboard */,
+				B56B242F20237DE10062BECA /* Assets.xcassets */,
+				B56B243120237DE10062BECA /* LaunchScreen.storyboard */,
+				B56B243420237DE10062BECA /* Info.plist */,
+			);
+			path = MyFloatTextView;
+			sourceTree = "<group>";
+		};
+		B56B243C20237DE10062BECA /* MyFloatTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B56B243D20237DE10062BECA /* MyFloatTextViewTests.swift */,
+				B56B243F20237DE10062BECA /* Info.plist */,
+			);
+			path = MyFloatTextViewTests;
+			sourceTree = "<group>";
+		};
+		B56B244720237DE10062BECA /* MyFloatTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B56B244820237DE10062BECA /* MyFloatTextViewUITests.swift */,
+				B56B244A20237DE10062BECA /* Info.plist */,
+			);
+			path = MyFloatTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56B242420237DE10062BECA /* MyFloatTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56B244D20237DE10062BECA /* Build configuration list for PBXNativeTarget "MyFloatTextView" */;
+			buildPhases = (
+				B56B242120237DE10062BECA /* Sources */,
+				B56B242220237DE10062BECA /* Frameworks */,
+				B56B242320237DE10062BECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFloatTextView;
+			productName = MyFloatTextView;
+			productReference = B56B242520237DE10062BECA /* MyFloatTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B56B243820237DE10062BECA /* MyFloatTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56B245020237DE10062BECA /* Build configuration list for PBXNativeTarget "MyFloatTextViewTests" */;
+			buildPhases = (
+				B56B243520237DE10062BECA /* Sources */,
+				B56B243620237DE10062BECA /* Frameworks */,
+				B56B243720237DE10062BECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56B243B20237DE10062BECA /* PBXTargetDependency */,
+			);
+			name = MyFloatTextViewTests;
+			productName = MyFloatTextViewTests;
+			productReference = B56B243920237DE10062BECA /* MyFloatTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B56B244320237DE10062BECA /* MyFloatTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56B245320237DE10062BECA /* Build configuration list for PBXNativeTarget "MyFloatTextViewUITests" */;
+			buildPhases = (
+				B56B244020237DE10062BECA /* Sources */,
+				B56B244120237DE10062BECA /* Frameworks */,
+				B56B244220237DE10062BECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56B244620237DE10062BECA /* PBXTargetDependency */,
+			);
+			name = MyFloatTextViewUITests;
+			productName = MyFloatTextViewUITests;
+			productReference = B56B244420237DE10062BECA /* MyFloatTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56B241D20237DE10062BECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Andrii;
+				TargetAttributes = {
+					B56B242420237DE10062BECA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B56B243820237DE10062BECA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B56B242420237DE10062BECA;
+					};
+					B56B244320237DE10062BECA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B56B242420237DE10062BECA;
+					};
+				};
+			};
+			buildConfigurationList = B56B242020237DE10062BECA /* Build configuration list for PBXProject "MyFloatTextView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B56B241C20237DE10062BECA;
+			productRefGroup = B56B242620237DE10062BECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56B242420237DE10062BECA /* MyFloatTextView */,
+				B56B243820237DE10062BECA /* MyFloatTextViewTests */,
+				B56B244320237DE10062BECA /* MyFloatTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56B242320237DE10062BECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56B243320237DE10062BECA /* LaunchScreen.storyboard in Resources */,
+				B56B243020237DE10062BECA /* Assets.xcassets in Resources */,
+				B56B242E20237DE10062BECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56B243720237DE10062BECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56B244220237DE10062BECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B56B242120237DE10062BECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56B242B20237DE10062BECA /* ViewController.swift in Sources */,
+				B56B242920237DE10062BECA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56B243520237DE10062BECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56B243E20237DE10062BECA /* MyFloatTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56B244020237DE10062BECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56B244920237DE10062BECA /* MyFloatTextViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B56B243B20237DE10062BECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56B242420237DE10062BECA /* MyFloatTextView */;
+			targetProxy = B56B243A20237DE10062BECA /* PBXContainerItemProxy */;
+		};
+		B56B244620237DE10062BECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56B242420237DE10062BECA /* MyFloatTextView */;
+			targetProxy = B56B244520237DE10062BECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B56B242C20237DE10062BECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56B242D20237DE10062BECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B56B243120237DE10062BECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56B243220237DE10062BECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B56B244B20237DE10062BECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B56B244C20237DE10062BECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B56B244E20237DE10062BECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22CB8MN87R;
+				INFOPLIST_FILE = MyFloatTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrii.MyFloatTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B56B244F20237DE10062BECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22CB8MN87R;
+				INFOPLIST_FILE = MyFloatTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrii.MyFloatTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B56B245120237DE10062BECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22CB8MN87R;
+				INFOPLIST_FILE = MyFloatTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrii.MyFloatTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFloatTextView.app/MyFloatTextView";
+			};
+			name = Debug;
+		};
+		B56B245220237DE10062BECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22CB8MN87R;
+				INFOPLIST_FILE = MyFloatTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrii.MyFloatTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFloatTextView.app/MyFloatTextView";
+			};
+			name = Release;
+		};
+		B56B245420237DE10062BECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22CB8MN87R;
+				INFOPLIST_FILE = MyFloatTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrii.MyFloatTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFloatTextView;
+			};
+			name = Debug;
+		};
+		B56B245520237DE10062BECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22CB8MN87R;
+				INFOPLIST_FILE = MyFloatTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrii.MyFloatTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFloatTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B56B242020237DE10062BECA /* Build configuration list for PBXProject "MyFloatTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56B244B20237DE10062BECA /* Debug */,
+				B56B244C20237DE10062BECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56B244D20237DE10062BECA /* Build configuration list for PBXNativeTarget "MyFloatTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56B244E20237DE10062BECA /* Debug */,
+				B56B244F20237DE10062BECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56B245020237DE10062BECA /* Build configuration list for PBXNativeTarget "MyFloatTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56B245120237DE10062BECA /* Debug */,
+				B56B245220237DE10062BECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56B245320237DE10062BECA /* Build configuration list for PBXNativeTarget "MyFloatTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56B245420237DE10062BECA /* Debug */,
+				B56B245520237DE10062BECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B56B241D20237DE10062BECA /* Project object */;
+}
