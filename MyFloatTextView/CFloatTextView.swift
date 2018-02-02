@@ -10,7 +10,7 @@ import UIKit
 
 class CFloatTextView: UIView, UITextViewDelegate {
     
-    let scale: CGFloat = 0.8
+    let scale: CGFloat = 0.6
     var label = UILabel()
     var textView = UITextView()
     var centerConstraint: NSLayoutConstraint!
@@ -32,21 +32,21 @@ class CFloatTextView: UIView, UITextViewDelegate {
         textView.isScrollEnabled = false
         textView.font = UIFont.systemFont(ofSize: 18)
         
+        
         textView.delegate = self
         textView.backgroundColor = UIColor.clear
-
         
         label.translatesAutoresizingMaskIntoConstraints = false
-        
         label.leftAnchor.constraint(equalTo: leftAnchor, constant: 5).isActive = true
         label.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
-//        label.heightAnchor.constraint(equalToConstant: 20).isActive = true
         label.text = "Team Motto"
-        label.backgroundColor = UIColor.red
-        
         
         centerConstraint = label.centerYAnchor.constraint(equalTo: textView.centerYAnchor)
         topConstraint = label.bottomAnchor.constraint(equalTo: textView.topAnchor)
+        
+//        
+//        textView.text = "В январе занятость в обрабатывающей промышленности оставалась на восходящем тренде (15 тыс.), при этом основной рост произошел за счет производства товаров длительного пользования, где прибавилось 18 тыс. рабочих мест. Всего в отрасли в 2017 году появилось 186 тыс. новых вакансий."
+        
         
         textView.layoutIfNeeded()
         label.layoutIfNeeded()
@@ -58,27 +58,27 @@ class CFloatTextView: UIView, UITextViewDelegate {
         }
     }
     
-    func textViewDidChange(_ textView: UITextView) {
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
         layoutIfNeeded()
+        NotificationCenter.default.post(name: key , object: nil)
+        return true
     }
-    
+        
     func textViewDidBeginEditing(_ textView: UITextView) {
         if textView.text.isEmpty {
             centerConstraint.isActive = false
             topConstraint.isActive = true
             
-            let offset = (self.label.bounds.width - self.label.bounds.width * scale) / 2
+            let xOffset = (self.label.bounds.width - self.label.bounds.width * scale) / (2 * scale)
+            let yOffset = (self.label.bounds.height - self.label.bounds.height * scale) / (2 * scale)
+
+            label.text = self.label.text?.uppercased()
             
-            
-//            (self.label.bounds.width - self.label.bounds.width * 0.3) / 2
-            
-//            label.text = self.label.text?.uppercased()
-            
-            UIView.animate(withDuration: 0.3, animations: {
+            UIView.animate(withDuration: 0.2, animations: {
                 
                 var transform = CGAffineTransform.identity
                 transform = transform.scaledBy(x: self.scale, y: self.scale)
-                transform = transform.translatedBy(x: -offset / self.scale, y: 0)
+                transform = transform.translatedBy(x: -xOffset, y: -yOffset)
                 self.label.transform = transform
                 self.layoutIfNeeded()
             })
@@ -92,11 +92,14 @@ class CFloatTextView: UIView, UITextViewDelegate {
             
             label.text = self.label.text?.capitalized
             
-            UIView.animate(withDuration: 0.3, animations: {
+            UIView.animate(withDuration: 0.2, animations: {
                 self.label.transform = .identity
                 self.layoutIfNeeded()
             })
         }
     }
+    
+
+    
     
 }

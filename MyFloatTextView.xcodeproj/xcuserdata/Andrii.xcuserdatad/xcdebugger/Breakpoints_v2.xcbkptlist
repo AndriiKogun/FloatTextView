@@ -9,46 +9,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MyFloatTextView/CFloatTextView.swift"
-            timestampString = "539269155.569319"
+            filePath = "MyFloatTextView/ViewController.swift"
+            timestampString = "539291059.046832"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "textViewDidBeginEditing(_:)"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "sizeHeaderToFit()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MyFloatTextView.CFloatTextView.textViewDidBeginEditing(__ObjC.UITextView) -&gt; ()"
-                  moduleName = "MyFloatTextView"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andrii/Desktop/FloatTextView/MyFloatTextView/CFloatTextView.swift"
-                  timestampString = "539269111.641692"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "77"
-                  endingLineNumber = "77"
-                  offsetFromSymbolStart = "1261">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in MyFloatTextView.CFloatTextView.textViewDidBeginEditing(__ObjC.UITextView) -&gt; ()"
-                  moduleName = "MyFloatTextView"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andrii/Desktop/FloatTextView/MyFloatTextView/CFloatTextView.swift"
-                  timestampString = "539269111.647408"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "22">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

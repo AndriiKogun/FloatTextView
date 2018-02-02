@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B561DEE32023C3B100F4EF61 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B561DEE22023C3B100F4EF61 /* ViewController.xib */; };
 		B561DEE52023C42200F4EF61 /* CFloatTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561DEE42023C42200F4EF61 /* CFloatTextView.swift */; };
 		B56B242920237DE10062BECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B242820237DE10062BECA /* AppDelegate.swift */; };
 		B56B242B20237DE10062BECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B242A20237DE10062BECA /* ViewController.swift */; };
@@ -15,6 +14,9 @@
 		B56B243320237DE10062BECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56B243120237DE10062BECA /* LaunchScreen.storyboard */; };
 		B56B243E20237DE10062BECA /* MyFloatTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B243D20237DE10062BECA /* MyFloatTextViewTests.swift */; };
 		B56B244920237DE10062BECA /* MyFloatTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B244820237DE10062BECA /* MyFloatTextViewUITests.swift */; };
+		B58DBA432024BD4400142638 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58DBA422024BD4400142638 /* HeaderView.swift */; };
+		B58DBA452024BD5300142638 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58DBA442024BD5300142638 /* HeaderView.xib */; };
+		B58DBA472024D31D00142638 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58DBA462024D31D00142638 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B561DEE22023C3B100F4EF61 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		B561DEE42023C42200F4EF61 /* CFloatTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFloatTextView.swift; sourceTree = "<group>"; };
 		B56B242520237DE10062BECA /* MyFloatTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFloatTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56B242820237DE10062BECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		B56B244420237DE10062BECA /* MyFloatTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFloatTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56B244820237DE10062BECA /* MyFloatTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFloatTextViewUITests.swift; sourceTree = "<group>"; };
 		B56B244A20237DE10062BECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58DBA422024BD4400142638 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B58DBA442024BD5300142638 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		B58DBA462024D31D00142638 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				B56B242820237DE10062BECA /* AppDelegate.swift */,
 				B56B242A20237DE10062BECA /* ViewController.swift */,
-				B561DEE22023C3B100F4EF61 /* ViewController.xib */,
+				B58DBA462024D31D00142638 /* ViewController.xib */,
 				B561DEE42023C42200F4EF61 /* CFloatTextView.swift */,
+				B58DBA422024BD4400142638 /* HeaderView.swift */,
+				B58DBA442024BD5300142638 /* HeaderView.xib */,
 				B56B242F20237DE10062BECA /* Assets.xcassets */,
 				B56B243120237DE10062BECA /* LaunchScreen.storyboard */,
 				B56B243420237DE10062BECA /* Info.plist */,
@@ -235,8 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58DBA452024BD5300142638 /* HeaderView.xib in Resources */,
 				B56B243320237DE10062BECA /* LaunchScreen.storyboard in Resources */,
-				B561DEE32023C3B100F4EF61 /* ViewController.xib in Resources */,
+				B58DBA472024D31D00142638 /* ViewController.xib in Resources */,
 				B56B243020237DE10062BECA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +272,7 @@
 				B56B242B20237DE10062BECA /* ViewController.swift in Sources */,
 				B561DEE52023C42200F4EF61 /* CFloatTextView.swift in Sources */,
 				B56B242920237DE10062BECA /* AppDelegate.swift in Sources */,
+				B58DBA432024BD4400142638 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
