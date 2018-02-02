@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B561DEE32023C3B100F4EF61 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B561DEE22023C3B100F4EF61 /* ViewController.xib */; };
+		B561DEE52023C42200F4EF61 /* CFloatTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561DEE42023C42200F4EF61 /* CFloatTextView.swift */; };
 		B56B242920237DE10062BECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B242820237DE10062BECA /* AppDelegate.swift */; };
 		B56B242B20237DE10062BECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B242A20237DE10062BECA /* ViewController.swift */; };
-		B56B242E20237DE10062BECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56B242C20237DE10062BECA /* Main.storyboard */; };
 		B56B243020237DE10062BECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56B242F20237DE10062BECA /* Assets.xcassets */; };
 		B56B243320237DE10062BECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56B243120237DE10062BECA /* LaunchScreen.storyboard */; };
 		B56B243E20237DE10062BECA /* MyFloatTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B243D20237DE10062BECA /* MyFloatTextViewTests.swift */; };
@@ -34,10 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B561DEE22023C3B100F4EF61 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		B561DEE42023C42200F4EF61 /* CFloatTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFloatTextView.swift; sourceTree = "<group>"; };
 		B56B242520237DE10062BECA /* MyFloatTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFloatTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56B242820237DE10062BECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B56B242A20237DE10062BECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B56B242D20237DE10062BECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B56B242F20237DE10062BECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B56B243220237DE10062BECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B56B243420237DE10062BECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +101,8 @@
 			children = (
 				B56B242820237DE10062BECA /* AppDelegate.swift */,
 				B56B242A20237DE10062BECA /* ViewController.swift */,
-				B56B242C20237DE10062BECA /* Main.storyboard */,
+				B561DEE22023C3B100F4EF61 /* ViewController.xib */,
+				B561DEE42023C42200F4EF61 /* CFloatTextView.swift */,
 				B56B242F20237DE10062BECA /* Assets.xcassets */,
 				B56B243120237DE10062BECA /* LaunchScreen.storyboard */,
 				B56B243420237DE10062BECA /* Info.plist */,
@@ -233,8 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56B243320237DE10062BECA /* LaunchScreen.storyboard in Resources */,
+				B561DEE32023C3B100F4EF61 /* ViewController.xib in Resources */,
 				B56B243020237DE10062BECA /* Assets.xcassets in Resources */,
-				B56B242E20237DE10062BECA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56B242B20237DE10062BECA /* ViewController.swift in Sources */,
+				B561DEE52023C42200F4EF61 /* CFloatTextView.swift in Sources */,
 				B56B242920237DE10062BECA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +300,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B56B242C20237DE10062BECA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B56B242D20237DE10062BECA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B56B243120237DE10062BECA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -429,6 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22CB8MN87R;
 				INFOPLIST_FILE = MyFloatTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Andrii.MyFloatTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22CB8MN87R;
 				INFOPLIST_FILE = MyFloatTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Andrii.MyFloatTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
